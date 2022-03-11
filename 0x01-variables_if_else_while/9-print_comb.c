@@ -28,9 +28,9 @@ int main(void)
 		if (l <= 56)
 
 	{
-
-																	putchar(44);
-																	putchar(32);
+		putchar(44);
+			
+		putchar(32);
 	}
 
 		l = l + 1;
