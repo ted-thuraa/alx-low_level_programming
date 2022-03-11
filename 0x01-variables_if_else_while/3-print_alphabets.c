@@ -27,6 +27,7 @@ int main(void)
 
 		{
 			putchar(u);
+
 			u = u + 1;
 		}
 
