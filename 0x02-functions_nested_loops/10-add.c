@@ -4,7 +4,7 @@
  * add - adds two integers
  * @a: first integer
  * @b: secound integer
- * returns: addition of two integers
+ * Return: int 0 when done and no errors
  */
 int add(int a, int b)
 {

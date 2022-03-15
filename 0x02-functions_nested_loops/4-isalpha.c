@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - checks for alphabetic character.
- *
- * returns 1 if c is a letter, lowercase or uppercase
- *
- * returns 0 otherwise
+ * _isalpha - checks if the int c is a letter
+ * @c: an int that is passed from the main file
+ * Description: Uses headers to link to another function and letter checker
+ * Return: int 0 when done and no errors
  */
 int _isalpha(int c)
 

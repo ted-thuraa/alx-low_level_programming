@@ -3,11 +3,9 @@
 
 
 /**
- *
  * main - entry point -> prints Holberton with line feed
- *
+ * Description:Uses a local library
  * Return: 0
- *
  */
 
 int main(void)

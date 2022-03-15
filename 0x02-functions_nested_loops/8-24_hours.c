@@ -39,7 +39,7 @@ void jack_bauer(void)
 			_putchar(hour1);
 
 			_putchar(hour2);
-			
+
 			_putchar(':');
 
 			_putchar(minute1);

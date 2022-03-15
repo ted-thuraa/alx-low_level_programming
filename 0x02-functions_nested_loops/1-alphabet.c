@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * prints alphabet
- *
- * return 0
+ * print_alphabet - program that prints out the alphabet with a new line
+ * Description: Uses headers to link to another function
+ * Return: int 0 when done and no errors
  *
  */
 void print_alphabet(void)
@@ -15,7 +15,7 @@ void print_alphabet(void)
 
 	{
 		_putchar(l);
-		
+
 		l++;
 
 	}

@@ -23,8 +23,6 @@ void times_table(void)
 
 	int i, j, whole, tens, ones = 0;
 
-
-
 	for (i = 0; i <= 9; i++)
 
 	{
@@ -61,7 +59,7 @@ void times_table(void)
 					_putchar(tens);
 					_putchar(ones);
 				}
-			
+
 				else
 				{
 					_putchar(' ');
