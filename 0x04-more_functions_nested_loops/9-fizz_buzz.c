@@ -3,7 +3,9 @@
 
 /**
  * main - fizz for multiples of 3 and buzz for 5 and fizzbuzz for both
- *
+ * Description: Uses headers to link and a nested loops to achieve goal
+ * fizz buzz from 1-100. print fizz for multiples of 3 and buzz for
+ * multiples of 5 and fizzbuzz for multiples of both eg. 15
  * Return: 0
  */
 

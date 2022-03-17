@@ -2,8 +2,9 @@
 
 /**
  * print_triangle - prints triangle in terminal
- *  @size: size of triangle
- *  Return: void function
+ * @size: size of triangle
+ * Description: Uses headers to link and a nested loops to achieve goal
+ * Return: void function
  */
 void print_triangle(int size)
 {

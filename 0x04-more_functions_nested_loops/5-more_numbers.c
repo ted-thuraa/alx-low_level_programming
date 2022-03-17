@@ -2,8 +2,8 @@
 
 /**
  * more_numbers : prints 10 times numbers 0 to 14 followed by a new line
- *
- *  Return: void
+ * Description: Uses headers to link and a nested loops to achieve goal
+ * Return: void
  */
 
 void more_numbers(void)
