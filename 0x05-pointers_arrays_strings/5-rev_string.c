@@ -2,8 +2,7 @@
 
 /**
  * rev_string -reverses a string
- * @S: a pointer given by the main function
- * Description: Uses headers to link and pointers to achieve goal
+ * @s: a pointer given by the main function
  * Return: void
  */
 void rev_string(char *s)
