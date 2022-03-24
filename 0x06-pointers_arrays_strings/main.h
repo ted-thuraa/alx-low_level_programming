@@ -17,3 +17,8 @@ char *cap_string(char *);
 char *leet(char *);
 
 void swap_int(int *a, int *b);
+
+int is_separator(char c);
+
+char check(char a);
+
