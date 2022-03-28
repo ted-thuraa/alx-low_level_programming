@@ -28,11 +28,7 @@ unsigned int _strspn(char *s, char *accept)
  * @c: character to replace
  * Return: a pointer to the resulting string
  */
-
-
-
 char *_strchr(char *s, char c)
-
 {
 
 	int j = 0;
@@ -51,7 +47,6 @@ char *_strchr(char *s, char c)
 		return (s + j);
 
 	else
-
 		return (NULL);
 
 }
