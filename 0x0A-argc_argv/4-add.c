@@ -33,6 +33,7 @@ int main(int argc, char **argv)
 
 /**
  * checker - checks if its a number
+ * @s:number to be checked
  * Return: 0
  */
 
