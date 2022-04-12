@@ -1,107 +1,83 @@
 #include "dog.h"
 
-#include <stdlib.h>
-
-
-
 /**
+ * new_dog - a pointer that we will return to dog_t
  *
- * * new_dog - a pointer that we will return to dog_t
+ * @name: woofy mdwoofer
  *
- * * @name: woofy mdwoofer
+ * @age: wofteen
  *
- * * @age: wofteen
+ * @owner: mr woof
  *
- * * @owner: mr woof
+ * Description: makes a new structure that returns a pointer
  *
- * *
+ * Return: the pointer or null if error
  *
- * * Description: makes a new structure that returns a pointer
- *
- * * Return: the pointer or null if error
- *
- * */
-
-
+ */
 
 dog_t *new_dog(char *name, float age, char *owner)
-
 {
+	char *cpy_name;
+	char *cpy_owner;
+	dog_t *temp;
+	int a = _strlen(name);
+	int b = _strlen(owner);
 
-		int i = 0;
+	cpy_name = malloc(sizeof(char *) * (a + 1));
+	cpy_owner = malloc(sizeof(char *) * (b + 1));
+	temp = malloc(sizeof(struct dog));
 
-			struct dog_t *new_doggy;
+	if ((cpy_name) && (cpy_owner) && (temp))
+	{
+		_strcpy(cpy_name, name);
+		_strcpy(cpy_owner, owner);
+		(*temp).name = name;
+		(*temp).owner = owner;
+		(*temp).age = age;
+	}
+	else
+	{
+		free(cpy_name);
+		free(cpy_owner);
+		free(temp);
 
-				char *decoy1;
+		return (NULL);
+	}
+	return (temp);
+}
 
-					char *decoy2;
+/**
+ * _strlen - returns the length of string
+ * @s: string
+ * Return: length of string
+ */
 
+int _strlen(char *s)
+{
+	int i = 0;
+	int counter;
 
+	for (; s[i] != '\0'; i++)
+	{
+		counter += 1;
+	}
+	return (counter);
+}
 
-						new_doggy = malloc(sizeof(struct dog_t));
-
-							if (!new_doggy)
-
-										return (0);
-
-								while (name[i])
-
-											i++;
-
-									decoy1 = malloc(i * sizeof(char) + 1);
-
-										if (!decoy1)
-
-												{
-
-															free(new_doggy);
-
-																	free(decoy1);
-
-																			return (0);
-
-																				}
-
-											for (i = 0; name[i]; i++)
-
-														decoy1[i] = name[i];
-
-												decoy1[i] = '\0';
-
-													i = 0;
-
-														while (owner[i])
-
-																	i++;
-
-															decoy2 = malloc(i * sizeof(char) + 1);
-
-																if (!decoy2)
-
-																		{
-
-																					free(new_doggy);
-
-																							free(decoy1);
-
-																									free(decoy2);
-
-																											return (0);
-
-																												}
-
-																	for (i = 0; owner[i]; i++)
-
-																				decoy2[i] = owner[i];
-
-																		decoy2[i] = '\0';
-
-																			new_doggy->name = decoy1;
-
-																				new_doggy->age = age;
-
-																					new_doggy->owner = decoy2;
-
-																						return (new_doggy);
-
+/**
+ * _strcpy - copies string from source to destination
+ * @dest: destination of string
+ * @src: source of string
+ * Return: dest string
+ */
+char *_strcpy(char *dest, char *src)
+{
+	int i;
+	
+	for (i = 0; *(src + i) != '\0'; i++)
+	{
+		*(dest + i) = *(src + i);
+	}
+	*(dest + i) = '\0';
+	return (dest);
 }

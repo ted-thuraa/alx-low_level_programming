@@ -2,8 +2,10 @@
 
 /**
  * print_dog - prints a struct dog
- * @d: dtruct dog
- * Return: NULL
+ * @d: struct dog
+ * Description: we do stuff
+ *
+ * Return: void function
  */
 
 void print_dog(struct dog *d)
@@ -18,6 +20,6 @@ void print_dog(struct dog *d)
 		{
 			(*d).owner = "(nil)";
 		}
-		printf("Name: %s\nAge: %f\nowner: %s\n", (*d).name, d->age, (*d).owner);
+		printf("Name: %s\nAge: %f\nowner: %s\n", (*d).name, (*d).age, (*d).owner);
 	}
 }
