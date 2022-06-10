@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/***
+/**
  * print_dlistint - prints elements of a linked list
  * @h: pointerto head of the list
  *
