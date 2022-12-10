@@ -70,7 +70,5 @@ ___
 
 ### Social Media
 
-[Linkedin]
-
-[Twitter: 
+[Linkedin](https://www.linkedin.com/in/teddy-mutwiri-37a356207/)
 
