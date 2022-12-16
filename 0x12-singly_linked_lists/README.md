@@ -1,3 +1,10 @@
+## Resources
+[linked lists](https://www.youtube.com/watch?v=udapt4FGY20&feature=youtu.be&t=2m10s)
+
+[]()
+
+[youtube](https://www.youtube.com/results?search_query=linked+lists)
+
 0-print_list.c - prints all the elements of a list_t list.
 
 
