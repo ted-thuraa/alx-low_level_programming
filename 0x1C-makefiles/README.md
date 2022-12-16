@@ -21,3 +21,11 @@ At the end of this project you are expected to be able to explain to anyone, wit
 **What are variables and how to set and use them?**  
 *https://ftp.gnu.org/old-gnu/Manuals/make-3.79.1/html_chapter/make_6.html.*  
 
+## Resources
+
+[Makefile](https://www.google.com/search?q=makefile)
+
+[Installing the make utility](https://www.geeksforgeeks.org/how-to-install-make-on-ubuntu/)
+
+[make-official documentation](https://www.gnu.org/software/make/manual/html_node/)
+
